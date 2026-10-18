@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+    
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#EDF6FC"/>
+            <stop offset="50%" stop-color="#FAF8F2"/>
+            <stop offset="100%" stop-color="#E2EEF8"/>
+        </linearGradient>
+        <rect width="900" height="600" fill="url(#bgGrad)"/>
+        
+    
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="40" y2="0" stroke="rgba(8, 43, 89, 0.05)" stroke-width="1"/>
+            <line x1="0" y1="0" x2="0" y2="40" stroke="rgba(8, 43, 89, 0.05)" stroke-width="1"/>
+        </pattern>
+        <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#DDA43A"/>
+            <stop offset="100%" stop-color="#F59E0B"/>
+        </linearGradient>
+    </defs>
+    <rect width="900" height="600" fill="url(#grid)"/>
+    
+    <!-- Outer delicate border -->
+    <rect x="6" y="6" width="888" height="588" rx="10" fill="none" stroke="rgba(8, 43, 89, 0.15)" stroke-width="1.5" stroke-dasharray="8,6"/>
+    
+    
+        <g transform="translate(400, 230)">
+            <path d="M 10 15 L 25 15 L 45 65 L 85 65 L 95 30 L 30 30" fill="none" stroke="#0868B2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="45" cy="78" r="7" fill="#DDA43A"/>
+            <circle cx="82" cy="78" r="7" fill="#DDA43A"/>
+            <rect x="50" y="40" width="22" height="15" rx="2" fill="none" stroke="#0868B2" stroke-width="2"/>
+        </g>
+        
+
+    <!-- Placeholder Badge -->
+    <g transform="translate(450, 340)">
+        <rect x="-140" y="-14" width="280" height="28" rx="14" fill="rgba(8, 104, 178, 0.08)" stroke="rgba(8, 104, 178, 0.25)" stroke-width="1.5"/>
+        <text x="0" y="5" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#0868B2">
+            ASSET PLACEHOLDER • 900x600
+        </text>
+    </g>
+
+    <!-- Specific Target Label -->
+    <text x="450" y="376" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="700" fill="#082B59" letter-spacing="0.5">
+        E-commerce Project Preview
+    </text>
+
+    <!-- Secondary Explanation -->
+    <text x="450" y="398" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="12" font-weight="500" fill="#65748A">
+        Modern Retail & Catalog Experience (Illustrative Sample)
+    </text>
+</svg>

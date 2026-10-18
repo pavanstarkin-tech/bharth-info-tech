@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="340" height="70">
+    <defs>
+        <linearGradient id="logoBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#082B59"/>
+            <stop offset="50%" stop-color="#0868B2"/>
+            <stop offset="100%" stop-color="#26B5D8"/>
+        </linearGradient>
+        <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#DDA43A"/>
+            <stop offset="100%" stop-color="#F59E0B"/>
+        </linearGradient>
+    </defs>
+    <!-- Geometric Tech Emblem / 3D "B" + Amaravati Arch -->
+    <g transform="translate(10, 8)">
+        <!-- 3D Layered Isometric Tech Hexagon / B -->
+        <rect x="4" y="4" width="46" height="46" rx="10" fill="url(#logoBlue)"/>
+        <!-- Amaravati Arch Motif -->
+        <path d="M 16 40 C 16 22 38 22 38 40" fill="none" stroke="#FAF8F2" stroke-width="3" stroke-linecap="round"/>
+        <!-- Tech Dot in Gold -->
+        <circle cx="27" cy="20" r="4.5" fill="url(#logoGold)"/>
+        <line x1="27" y1="20" x2="27" y2="30" stroke="#FAF8F2" stroke-width="2"/>
+        <!-- Accent corner blocks -->
+        <rect x="36" y="8" width="6" height="6" rx="1.5" fill="#26B5D8"/>
+    </g>
+
+    <!-- Typography -->
+    <text x="72" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="17" font-weight="800" fill="#082B59" letter-spacing="0.3">
+        BHARAT INTELLI TECH
+    </text>
+    <text x="72" y="48" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#0868B2" letter-spacing="2">
+        SYSTEMS
+    </text>
+    <text x="145" y="48" font-family="'Inter', system-ui, sans-serif" font-size="9" font-weight="500" fill="#DDA43A" letter-spacing="1">
+        • AMARAVATI
+    </text>
+</svg>

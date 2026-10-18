@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #26364B;
+    background-color: #FAF8F2;
+  }
+
+  /* Accessibility focus indicator */
+  *:focus-visible {
+    outline: 2px solid #078BCB;
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Glassmorphism Navigation */
+.glass-nav-scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(8, 43, 89, 0.08);
+}
+
+.glass-nav-top {
+  background: rgba(250, 248, 242, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(8, 43, 89, 0.04);
+}
+
+/* Premium Gradients */
+.gradient-brand {
+  background: linear-gradient(135deg, #082B59 0%, #0868B2 50%, #078BCB 100%);
+}
+
+.gradient-gold-text {
+  background: linear-gradient(135deg, #DDA43A 0%, #F59E0B 60%, #B45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-tech-text {
+  background: linear-gradient(135deg, #082B59 0%, #0868B2 60%, #26B5D8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0868B2;
+  border-radius: 5px;
+  border: 2px solid #FAF8F2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #082B59;
+}
