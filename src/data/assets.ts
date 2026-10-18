@@ -32,12 +32,18 @@ export const assets = {
     customSoftware: asset("/images/service-custom-software.webp"),
   },
 
-  // Solutions (4 Cards)
+  // Solutions (5 Cropped Parts from Bharat IntelliTech Digital Solutions Showcase)
   solutions: {
-    ecommerce: asset("/images/sol-ecommerce.webp"),
-    enterprise: asset("/images/sol-enterprise.webp"),
-    startup: asset("/images/sol-startup.webp"),
-    industry: asset("/images/sol-industry.webp"),
+    part1: asset("/images/solution-showcase-1.webp?v=1"),
+    part2: asset("/images/solution-showcase-2.webp?v=1"),
+    part3: asset("/images/solution-showcase-3.webp?v=1"),
+    part4: asset("/images/solution-showcase-4.webp?v=1"),
+    part5: asset("/images/solution-showcase-5.webp?v=1"),
+    ecommerce: asset("/images/solution-showcase-1.webp?v=1"),
+    enterprise: asset("/images/solution-showcase-2.webp?v=1"),
+    industry: asset("/images/solution-showcase-3.webp?v=1"),
+    startup: asset("/images/solution-showcase-4.webp?v=1"),
+    mobile: asset("/images/solution-showcase-5.webp?v=1"),
   },
 
   // Our Work (4 Device Mockup Cards)

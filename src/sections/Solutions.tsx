@@ -131,11 +131,11 @@ export const Solutions: React.FC<SolutionsProps> = ({ onSelectSolution }) => {
                   <div
                     className={`w-full bg-white rounded-[26px] sm:rounded-[34px] transition-all duration-500 overflow-hidden ${
                       isCenter
-                        ? "p-3 sm:p-4 shadow-2xl ring-2 ring-[#0868B2]/40 shadow-[#0868B2]/25"
+                        ? "p-2.5 sm:p-3.5 shadow-2xl ring-2 ring-[#0868B2]/40 shadow-[#0868B2]/25"
                         : "p-2 sm:p-2.5 shadow-md hover:shadow-xl border border-slate-200/80"
                     }`}
                   >
-                    <div className="w-full aspect-[4/3] rounded-[20px] sm:rounded-[26px] overflow-hidden bg-slate-100">
+                    <div className="w-full aspect-[3/4] rounded-[20px] sm:rounded-[26px] overflow-hidden bg-slate-100">
                       <img
                         src={item.image}
                         alt={item.imageAlt}
